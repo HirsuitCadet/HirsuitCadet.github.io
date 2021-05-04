@@ -1,0 +1,31 @@
+#rouge
+{
+	font-size:1.5em;
+}
+p
+{
+	color:#919395;
+	font-size:1.5em;
+	text-align:justify; 
+}
+.OS
+{
+	float:right;
+	width:160px;
+	height:125px;
+}
+.pub
+{
+	float:left;
+	width:170px;
+	height:125px;
+}
+body
+{
+	background:url("../Images/fond1.jpeg");
+	background-size: cover;
+}
+a:visited
+{
+	color:#919395;
+}

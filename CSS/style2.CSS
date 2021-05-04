@@ -1,0 +1,36 @@
+p
+{
+	font-size:1.5em;
+	text-align:justify; 
+}
+#bleu
+{
+	font-size:1.5em;
+}
+.flottant
+{
+	float:right;
+	width:300px;
+	height:250px;
+}
+.sport
+{
+	float:left;
+	width:300px;
+	height:250px;
+}
+.mediego
+{
+	float:right;
+	width:300px;
+	height:200px;
+}
+body
+{
+	background:url("../HTML/../Images/fond2.jpeg");
+	background-size:cover;
+}
+a:visited
+{
+	color:black;
+}
