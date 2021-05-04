@@ -1,0 +1,114 @@
+[1mdiff --git a/CSS/style.CSS b/CSS/style.CSS[m
+[1mindex 56a2ca3..d3f5a12 100644[m
+[1m--- a/CSS/style.CSS[m
+[1m+++ b/CSS/style.CSS[m
+[36m@@ -1,67 +1 @@[m
+[31m-h1[m
+[31m-{[m
+[31m-    font-size:5em;[m
+[31m-    text-align: center;[m
+[31m-}[m
+[31m-p[m
+[31m-{[m
+[31m-	font-size:3.5em;[m
+[31m-	text-align:left;[m
+[31m-}[m
+[31m-ul[m
+[31m-{[m
+[31m-	font-size:3em;[m
+ [m
+[31m-}[m
+[31m-body[m
+[31m-{[m
+[31m-	background:url("../Images/fond3.jpeg");[m
+[31m-	background-size:cover;[m
+[31m-}[m
+[31m-.flottant[m
+[31m-{[m
+[31m-	float: right;[m
+[31m-	width:400px;[m
+[31m-	height:380px;[m
+[31m-}[m
+[31m-a:visited[m
+[31m-{[m
+[31m-	color:#000000;[m
+[31m-}[m
+[31m-Index.HTML[m
+[31m-{[m
+[31m-	width:1600px;[m
+[31m-	height:900px;[m
+[31m-}[m
+[31m-.conteneur{[m
+[31m-	margin-left:300px;[m
+[31m-	position:absolute;[m
+[31m-}[m
+[31m-.menu-vertical{[m
+[31m-	margin-left:-300px;[m
+[31m-	background-image:url("../Images/fond3.jpeg");[m
+[31m-	background-size:cover;[m
+[31m-	position:absolute;[m
+[31m-	width:300px;[m
+[31m-	position:fixed;[m
+[31m-	top:0;[m
+[31m-	bottom:0;[m
+[31m-	box-shadow:2px 2px 2px silver;[m
+[31m-}[m
+[31m-.menu-vertical .avatar{[m
+[31m-	background-image: url("../Images/bb.png");[m
+[31m-	background-size:190px 183px;[m
+[31m-	width:190px;[m
+[31m-	height:183px;[m
+[31m-	margin: 150px auto 15px auto;[m
+[31m-}[m
+[31m-.menu-vertical .nom[m
+[31m-{[m
+[31m-	font-size:1.5em;[m
+[31m-	color:#afafaf;[m
+[31m-}[m
+[31m-.menu-vertical .lien a[m
+[31m-{[m
+[31m-	font-size:0.4em;[m
+[31m-	color:#afafaf;[m
+[31m-}[m
+\ No newline at end of file[m
+[1mdiff --git a/Index.HTML b/Index.HTML[m
+[1mindex 4b3fd08..4bf4f2d 100644[m
+[1m--- a/Index.HTML[m
+[1m+++ b/Index.HTML[m
+[36m@@ -1,27 +1,10 @@[m
+ <!DOCTYPE html>[m
+[31m-<html lang="fr">[m
+[31m-<head>[m
+[31m-	<meta charset="utf-8"/>[m
+[31m-	<link rel="stylesheet" href="CSS/style.CSS">[m
+[31m-	<title>Ma page</title>[m
+[31m-</head>[m
+[31m-	[m
+[31m-	[m
+[31m-<body class="conteneur">[m
+[31m-	<div class="menu-vertical">[m
+[31m-		<p class="nom">Axel<br/>Brazeau<br/>101</p>[m
+[31m-		<div class="avatar"></div>[m
+[31m-		<p class="lien"><br /><br /><br /><br /><br /><br /><a href="http://www.lycee-tocqueville.fr/">Lien vers le lycée Tocqueville</a></p>[m
+[31m-	</div>[m
+[31m-	<div class="contenu">[m
+[31m-		<h1>Anne-Marie Kermarrec</h1>[m
+[31m-		<p > Ce site a été créer dans le cas où vous souhaiteriez vous renseigner au sujet de <em>Mme Anne-Marie Kermarrec </em>. <br /> Vous pourrez en savoir plus sur : [m
+[31m-		<p><img src="Images/anne.jpg" alt="Anne-Marie Kermarrec" class="flottant" /></p>	[m
+[31m-			<ul>[m
+[31m-				<li><a href="HTML/sa-vie.HTML">sa vie</a><br /><br /><br /></li>[m
+[31m-				<li><a href="HTML/son-oeuvre.HTML">son oeuvre</a><br /><br /><br /></li>[m
+[31m-				<li><a href="HTML/les-ressources.HTML">les ressources utilisées</a><br /><br /><br /></li>[m
+[31m-			</ul>[m
+[31m-	</div>[m
+[31m-</body>[m
+[31m-</html>[m
+[32m+[m[32m<html>[m[41m[m
+[32m+[m[32m  <head>[m[41m[m
+[32m+[m[32m    <meta encoding="utf-8">[m[41m[m
+[32m+[m[32m    <title>Ma première page web</title>[m[41m[m
+[32m+[m[32m  </head>[m[41m[m
+[32m+[m[32m  <body>[m[41m[m
+[32m+[m[32m    <h1>Ma première page web hébergée par GitHub</h1>[m[41m[m
+[32m+[m[32m  </body>[m[41m[m
+[32m+[m[32m</html>>[m[41m[m
